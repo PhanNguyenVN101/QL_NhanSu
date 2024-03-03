@@ -1,0 +1,12 @@
+C:\MonHoc\NoSQL\Nhom10_NoSQL\DesignControl\bin\Debug\DesignControl.dll
+C:\MonHoc\NoSQL\Nhom10_NoSQL\DesignControl\bin\Debug\DesignControl.pdb
+C:\MonHoc\NoSQL\Nhom10_NoSQL\DesignControl\obj\Debug\DesignControl.csproj.AssemblyReference.cache
+C:\MonHoc\NoSQL\Nhom10_NoSQL\DesignControl\obj\Debug\DesignControl.csproj.CoreCompileInputs.cache
+C:\MonHoc\NoSQL\Nhom10_NoSQL\DesignControl\obj\Debug\DesignControl.dll
+C:\MonHoc\NoSQL\Nhom10_NoSQL\DesignControl\obj\Debug\DesignControl.pdb
+C:\Works\Nhom10_NoSQL\DesignControl\bin\Debug\DesignControl.dll
+C:\Works\Nhom10_NoSQL\DesignControl\bin\Debug\DesignControl.pdb
+C:\Works\Nhom10_NoSQL\DesignControl\obj\Debug\DesignControl.csproj.AssemblyReference.cache
+C:\Works\Nhom10_NoSQL\DesignControl\obj\Debug\DesignControl.csproj.CoreCompileInputs.cache
+C:\Works\Nhom10_NoSQL\DesignControl\obj\Debug\DesignControl.dll
+C:\Works\Nhom10_NoSQL\DesignControl\obj\Debug\DesignControl.pdb

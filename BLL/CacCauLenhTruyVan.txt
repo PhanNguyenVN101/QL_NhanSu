@@ -1,0 +1,30 @@
+-1. Xuất ra danh sách mã nhân viên theo từng vị trí ứng tuyển 
+db.NhanVien.aggregate([{$unwind:"$ViTriUngTuyen"},{$group:{_id:"$ViTriUngTuyen",DSMaNV:{$push:"$MaNV"}}}])
+
+2. Xuất ra 3 nhân viên có năm kinh nghiệm nhiều nhất 
+db.NhanVien.aggregate([{$sort:{NamKinhNghiem:-1}},{$limit:3}])
+
+-3. Xuất ra danh sách mã nhân viên theo từng tên chứng chỉ
+db.NhanVien.aggregate([{$unwind:"$ChungChis"},{$group:{_id:"$ChungChis.TenCC",DSMaNV:{$addToSet:"$MaNV"}}}])
+
+-4. Xuất ra mã nhân viên, họ tên và số lượng chứng chỉ
+db.NhanVien.aggregate([{$project:{_id:0,MaNV:1,HoTen:1,slcc:{$size:"$ChungChis"}}}])
+
+-5. Xuất ra mã nhân viên, họ tên, tuổi với 20 <= tuổi <= 30
+db.NhanVien.aggregate([{$project:{MaNV:1,HoTen:1,GioiTinh:1,age:{
+$subtract:[{$year: new Date()},
+{$year:{$toDate:{$multiply:[{$toDecimal:"$NgaySinh"},1000]}}}]}}},
+                       {$match:{$and:[{age:{$gte:20,$lte:30}}]}}])
+
+-6. Xuất ra nhân viên có 1 trong các tên chứng chỉ sau: "Ứng dụng CNTT cơ bản","TOEIC","IELTS" và giới tính nam
+db.NhanVien.find({$and:[{"ChungChis.TenCC":{$in:["Ứng dụng CNTT cơ bản","TOEIC","IELTS"]}},
+                        {GioiTinh:"Nam"}]})
+
+7. Xuất ra nhân viên có vị trí ứng tuyển với chuỗi bất kì và năm kinh nghiệm > 10
+db.NhanVien.find({$and:[{ViTriUngTuyen:/a/},{NamKinhNghiem:{$gt:10}}]})
+
+8. Tìm nhân viên có họ tên bắt đầu bằng "Phan" rồi sắp xếp tăng dần theo số điện thoại
+db.NhanVien.find({HoTen:/^Phan/}).sort({SoDienThoai:1})
+
+9. Tìm nhân viên có họ tên không bằng "Đỗ Ngọc Thạch" rồi sắp xếp tăng dần theo họ tên ,giảm dần theo CCCD
+db.NhanVien.find({HoTen:{$ne:"Đỗ Ngọc Thạch"}}).sort({HoTen:1,CCCD:-1})

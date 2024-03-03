@@ -1,0 +1,911 @@
+[{
+  "_id": {
+    "$oid": "652c91fed53e761d0620d074"
+  },
+  "MaNV": "NV1",
+  "CCCD": "096873791739",
+  "HoTen": "Tuấn Trần",
+  "NgaySinh": 965088000,
+  "GioiTinh": "Nam",
+  "SoDienThoai": "0927831234",
+  "Email": "tuantran@gmail.com",
+  "ViTriUngTuyen": "Nhân Viên",
+  "NamKinhNghiem": 12,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "25 Tôn Huyền",
+    "Phuong_Xa": "Xã Tân Thành",
+    "Quan_Huyen": "Dương Thành",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "57821",
+      "TenCC": "Anh văn 6 bậc",
+      "NgayCap": 1602288000,
+      "DiaChi": {
+        "Duong": "Cộng Hòa",
+        "Phuong_Xa": "Tâm Nam",
+        "Quan_Huyen": "Mai Tiến",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652c94daaf2bdc08a2ca0259"
+  },
+  "MaNV": "NV2",
+  "CCCD": "096855791739",
+  "HoTen": "Nam Trần",
+  "NgaySinh": 687052800,
+  "GioiTinh": "Nam",
+  "SoDienThoai": "0925748271",
+  "Email": "namtran@gmail.com",
+  "ViTriUngTuyen": "Trưởng Phòng",
+  "NamKinhNghiem": 21,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "33 Âu Cơ",
+    "Phuong_Xa": "Xã 5",
+    "Quan_Huyen": "Quận 11",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "12414",
+      "TenCC": "Boostrap 5",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "22 Trần Mién",
+        "Phuong_Xa": "Xã 12",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đậu"
+},
+{
+  "_id": {
+    "$oid": "652c9602af2bdc08a2ca025a"
+  },
+  "MaNV": "NV3",
+  "CCCD": "096871111739",
+  "HoTen": "Vân Anh",
+  "NgaySinh": 525916800,
+  "GioiTinh": "Nữ",
+  "SoDienThoai": "0878312589",
+  "Email": "vananh@gmail.com",
+  "ViTriUngTuyen": "Nhân Viên",
+  "NamKinhNghiem": 2,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "58 Mai Ưng",
+    "Phuong_Xa": "Xã 2",
+    "Quan_Huyen": "Quận 12",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "23211",
+      "TenCC": "JavaScript",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "33 Thanh Tiên",
+        "Phuong_Xa": "Xã 6",
+        "Quan_Huyen": "Quận 10",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "46811",
+      "TenCC": "C# Nâng Cao",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "33 Thanh Tiên",
+        "Phuong_Xa": "Xã 6",
+        "Quan_Huyen": "Quận 10",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652c96f8af2bdc08a2ca025b"
+  },
+  "MaNV": "NV4",
+  "CCCD": "092903791167",
+  "HoTen": "Anh Thư",
+  "NgaySinh": 971136000,
+  "GioiTinh": "Nữ",
+  "SoDienThoai": "0927838902",
+  "Email": "anhthu@gmail.com",
+  "ViTriUngTuyen": "Nhân Viên",
+  "NamKinhNghiem": 16,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "89 Mai Thanh Huyền",
+    "Phuong_Xa": "Xã 89",
+    "Quan_Huyen": "Quận Nam Đàn",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "89124",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "28 Thanh Tiền",
+        "Phuong_Xa": "Xã Nam Thành",
+        "Quan_Huyen": "Quận 5",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652c97d9af2bdc08a2ca025c"
+  },
+  "MaNV": "NV5",
+  "CCCD": "095573791766",
+  "HoTen": "Nhựt Phi",
+  "NgaySinh": 1002672000,
+  "GioiTinh": "Nam",
+  "SoDienThoai": "0927836011",
+  "Email": "nhutphi@gmail.com",
+  "ViTriUngTuyen": "Nhân Viên",
+  "NamKinhNghiem": 5,
+  "Anh": {
+    "$binary": {
+      "base64": "iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDAAACwwBP0AiyAAAB8xJREFUeF7tnVlsVGUUx6u4b3FN1KiJBjcSkLl3WtEHKvFJY9zrEsXOUptooonRUAWxrI8a6m7ikxjCKk/GBzQuD0go0UAkKEZTCChN6Xx3atmV8f+/97AUzixt587cmfl+yUmnc8/97jnn27/73TtNFovFYrFYLBaLxRJF2tpyE1JxE0u62ZeTrrcy5Xg/Q3bi876kaw7jbybpeL9AVicc7w3o3dndlDtTTreMhw4nOw3B/iPlerlRiZ9BZnEqNnCtJGUZLW3Tdp6fdMweNcAlCjLhINJ494XJ3mWSrKVUkvFMqxbUsYnpRzP2mCRtKYWEaxw9mOMR08M+RS5hKQY61m/1QI5d0GmvbW/NnSeXsBTimZa9lyAT3kZb3ptyzJcI3pxULDM9ER+8vtPdfcGzU/6+MBXP3srmyj/mmI0o5Ue1wJ8szARbE0IiHfMmIiOWFcsIZMISOcUSBqmYF0cmbNeCf0zSMfOoqFvCgMNPzAnWacEPxPTbIWrIdLfmziqSCT2iagkLvybkaY44WbMz5gqQiHvNeTtmxywSNUuYIAOWaxmAEdEOu4BXARJTszfnqwWsIaJmCROU9k1aBkC6RKURyJ0RSOVBBsxVgs8l7FWiUr9w+SDpmI/h7H4KP3PZWQ5XBDRBM9QMcL0tolK/YMj3wemOm/flcEXoaM7ecroN/nB0QFTqFzhqTnfcy8jhipC6e+DiU20I7DAHRaV+QWk/pDn/4qT+i0QldLjCqtnQEBmANn9Qc57DQ1EJnXZ36DbNhoZogrh7QXU+nmkVldBp8E7YW6M4TnlTVEIHo69u5frsi1aKSv0C52frzpteUQkd1MKf8tgwS1TqF26a0pzn8gDvZIlaaBRaiuANHFGrX7jghVqwUw2AY5aJWmiwmdGuje/7GmYxDlV9sRYEv2SGWArTrteSr/RjdLZQ1Oqf9ubhq/2lCDUQ3p+d7tCVolo20tO8y5Hxv2vXRM070HA3ZLhdUA0GxfHW8TaiqI6bTjd3NpqYr9VrQXCs8XZHyC3Cfi0gFATl++TUoatEfcyw5DNDtWtQUBD2tN9hLhX1xoJ7NbWgnBCzfTw3Sdjm5212fGF/YB4W9cYEAejRg3NM/CAtH81ShQw1VwTnammKON47ckrj0taWm4DmZq0aoBFijkJvE2QuPs/geg63JVKCtR0zg8eoUzTwEOit4bXFjMaGG2URkBIyoTzC4L80MXeuXN5CpCYs0QJWPkHNQLNjS34BuFeTIxM9gGMXpgl5RC5jKQSHhSitPf4ESQnmqARpsGY17FBzPHS6w9cggIsQwB1qcAsIzulDiV/INCQ5y1jhIlmwrdDrQhu+CsHdjOAOopYcovAzvwuOmVlcT7K73CwWi8VisVgsFkvD4S8nOCaBCdJaTJR+xSRq+OSZarkFE7D/MCnbVup6T9r12gK71KXrYR6j7Wk3015TyxjB0jJmo8ou6EoIAnek2F20VCx7V5BhehqnCjIiQ58iv4Ttr924ZoPmRCUFASt4kx2Z9JF2XjFBJvwY2bUlGgbH+zTDKy3FMgCF5EPtvFKEPnJbjSQVDVg1o1DyKWyCim3uYhOE/ulf7fxSBDVhfaSaI2nzVWMrJUGbbrZCStrlAP3HobstOE9Ps6A45jVJqroEN0/yd7hJx1vNvf+8eS6nRB7/HUSxzHQ0N/m20rMpykRidMShpmYgBaXrFVGrWeDDq5pvFA5RRa16oCSouxlYekSl5snnI+QLUake6PR+UwzLsQqLSs2Tds09mo/0XVSqB0rHP5pxlXzqMWzoi+YjfReV6gEj9mnGVfrp9zChL5qP6B+q/1QlMkDdsdDRsvc6Ual5Ot3MDZqPyID1olI9YESvapyTfUBUap5UPPOg6qNrPheV6gEjlHc/+O1j3Tz0gM5Wf5jE8WaLSvVIxLwnNeNg9GA99AP+210w6dJ8jMRTlXzSJV9HjNoxT9RqlpRrFuTx7a/IbP5CVfxUMxKz5AMdjueKWs3B+woI9EHdN69b1KpPws1MLrC6uKujxdwoqjVDMu7dhJq9W/GHwd9fjufXygra/PdUYwPZxUwS1ciTjmWm5A0+BMfmiGp0CO4B53kCHsJ+IuGaDlGPLKjJz7OEaz4EYra2TcqdI+rRgqMCtvu64cflm3Rs6HY5JTLQJtp2iq0jxfGyUbR9BCjpTxfoDwLBcTRZn0XBGbTlk1CqlxazGZ3x4YSbvV9OizapuPcUAnxEc2SkmKNJ/kJGPDszjNcT5IPXSrqZ51Civ6MNum0nxB8JYTYsp9cGyXj2Pk7GNIdU8Uug2YAMeYvDv3I+SMfXHvgv6vBf1IRrjGpLihlIxcy9klRtweEnArtRc6yYsNShOduMgK1g4JAxT/Aeg/+DbhgizmzOXsHOkMLP/I7H/FuJ0MX58/xzXW8L/qovCiwmSGM9fypF3KlNOFtEQDrZgWlORlS4i6+rrh5nlX1DS5ARBYZ4VRZOsGBjXT/YJ7vnFsDRvBOdKsgu2DQ/chuuwoQdI2bHD8HxpQhANfaRGg6FObop57uJahJ2pMGNbzMfgfkBtUO9zzwekTSRtpnHfUqRnc1GAXbcfMG2v4Xc9V5H4D5B4L6C9OL/Pgh/vnboeHDx2f+Oe1Mx6qIuz4F0MQ2mZZ8btlgsFovFYrFYLNGgqel/U8SP+oEGiccAAAAASUVORK5CYII=",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "27 Thân Trần",
+    "Phuong_Xa": "Xã 7",
+    "Quan_Huyen": "Quận 11",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "78192",
+      "TenCC": "Ứng Dụng CNTT cơ bản",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "82 Tiến Trần",
+        "Phuong_Xa": "Xã 15",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "78155",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "82 Tiến Trần",
+        "Phuong_Xa": "Xã 15",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Rớt"
+},
+{
+  "_id": {
+    "$oid": "652c992faf2bdc08a2ca025d"
+  },
+  "MaNV": "NV6",
+  "CCCD": "091873251739",
+  "HoTen": "Tiến Đạt",
+  "NgaySinh": 971136000,
+  "GioiTinh": "Nam",
+  "SoDienThoai": "0964782124",
+  "Email": "tiendat@gmail.com",
+  "ViTriUngTuyen": "Nhân Viên",
+  "NamKinhNghiem": 3,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "26 Tân Thành",
+    "Phuong_Xa": "Xã 12",
+    "Quan_Huyen": "Quận 12",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "51712",
+      "TenCC": "Ứng Dụng CNTT cơ bản",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "189 Âu Cơ",
+        "Phuong_Xa": "Xã Thành Tâm",
+        "Quan_Huyen": "Quận 4",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "51733",
+      "TenCC": "IELTS",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "189 Âu Cơ",
+        "Phuong_Xa": "Xã Thành Tâm",
+        "Quan_Huyen": "Quận 4",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652c9a54af2bdc08a2ca025e"
+  },
+  "MaNV": "NV7",
+  "CCCD": "096873751839",
+  "HoTen": "Thiên Tâm",
+  "NgaySinh": 939513600,
+  "GioiTinh": "Nam",
+  "SoDienThoai": "0952817245",
+  "Email": "thientam@gmail.com",
+  "ViTriUngTuyen": "Nhân Viên",
+  "NamKinhNghiem": 2,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "129 Nguyễn Việt Thắng",
+    "Phuong_Xa": "Xã Tiên Thành",
+    "Quan_Huyen": "Quận 12",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "78192",
+      "TenCC": "Ứng dụng Công Nghệ Thông Tin",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "672 Nguyễn Phương",
+        "Phuong_Xa": "Xã 78",
+        "Quan_Huyen": "Quận 3",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652c9b32af2bdc08a2ca025f"
+  },
+  "MaNV": "NV8",
+  "CCCD": "096873767273",
+  "HoTen": "Phan Đông",
+  "NgaySinh": 655516800,
+  "GioiTinh": "Nam",
+  "SoDienThoai": "0927839912",
+  "Email": "phandong@gmail.com",
+  "ViTriUngTuyen": "Trưởng Phòng",
+  "NamKinhNghiem": 5,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "152 Nam Đàn",
+    "Phuong_Xa": "Xã 7",
+    "Quan_Huyen": "Quận 4",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "61812",
+      "TenCC": "Ứng dụng Công Nghệ Thông Tin",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "133 Âu Cơ",
+        "Phuong_Xa": "Xã 5",
+        "Quan_Huyen": "Quận 11",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61821",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "133 Âu Cơ",
+        "Phuong_Xa": "Xã 5",
+        "Quan_Huyen": "Quận 11",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652c9b9baf2bdc08a2ca0260"
+  },
+  "MaNV": "NV9",
+  "CCCD": "096871276727",
+  "HoTen": "Phan Nhựt Nam",
+  "NgaySinh": 655516800,
+  "GioiTinh": "Nam",
+  "SoDienThoai": "0927861512",
+  "Email": "nhutnam@gmail.com",
+  "ViTriUngTuyen": "Nhân Viên",
+  "NamKinhNghiem": 3,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "152 Nam Đàn Thuyệt",
+    "Phuong_Xa": "Xã 1",
+    "Quan_Huyen": "Quận 5",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "61812",
+      "TenCC": "Ứng dụng CNTT cơ bản",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "133 Âu Cơ",
+        "Phuong_Xa": "Xã 5",
+        "Quan_Huyen": "Quận 11",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61821",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "133 Âu Cơ",
+        "Phuong_Xa": "Xã 5",
+        "Quan_Huyen": "Quận 11",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652ca531fe1a7c19b5fe9e4b"
+  },
+  "MaNV": "NV10",
+  "CCCD": "097262812812",
+  "HoTen": "Thủy Tiên",
+  "NgaySinh": 939513600,
+  "GioiTinh": "Nữ",
+  "SoDienThoai": "0952826123",
+  "Email": "thuytien@gmal.com",
+  "ViTriUngTuyen": "Nhân Viên",
+  "NamKinhNghiem": 12,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "618 Nguyễn Trỗi",
+    "Phuong_Xa": "Xã 12",
+    "Quan_Huyen": "Quận 11",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "67128",
+      "TenCC": "Ứng dụng CNTT cơ bản",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61824",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61866",
+      "TenCC": "IELTS",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652ca56ffe1a7c19b5fe9e4c"
+  },
+  "MaNV": "NV11",
+  "CCCD": "097262812581",
+  "HoTen": "Phương Thùy",
+  "NgaySinh": 939513600,
+  "GioiTinh": "Nữ",
+  "SoDienThoai": "0952826123",
+  "Email": "thuy12@gmal.com",
+  "ViTriUngTuyen": "Nhân Viên",
+  "NamKinhNghiem": 12,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "618 Nguyễn A",
+    "Phuong_Xa": "Xã 12",
+    "Quan_Huyen": "Quận 11",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "67128",
+      "TenCC": "Ứng dụng CNTT cơ bản",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61824",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61866",
+      "TenCC": "IELTS",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652ca5c2fe1a7c19b5fe9e4d"
+  },
+  "MaNV": "NV12",
+  "CCCD": "098846281142",
+  "HoTen": "Thanh Trúc",
+  "NgaySinh": 939513600,
+  "GioiTinh": "Nữ",
+  "SoDienThoai": "0942825172",
+  "Email": "thanhtruc3@gmal.com",
+  "ViTriUngTuyen": "Nhân Viên",
+  "NamKinhNghiem": 10,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "618 Nguyễn An Thiên",
+    "Phuong_Xa": "Xã 12",
+    "Quan_Huyen": "Quận 11",
+    "Tinh_TP": "Hà Nội"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "67128",
+      "TenCC": "Ứng dụng CNTT cơ bản",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61824",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61866",
+      "TenCC": "IELTS",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652ca613fe1a7c19b5fe9e4e"
+  },
+  "MaNV": "NV13",
+  "CCCD": "098843621142",
+  "HoTen": "Thi Vân",
+  "NgaySinh": 926812800,
+  "GioiTinh": "Nữ",
+  "SoDienThoai": "0942865923",
+  "Email": "thivan12@gmal.com",
+  "ViTriUngTuyen": "Trưởng Phòng",
+  "NamKinhNghiem": 8,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "618 Nguyễn An Thiên",
+    "Phuong_Xa": "Xã 12",
+    "Quan_Huyen": "Quận 11",
+    "Tinh_TP": "Hà Nội"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "67128",
+      "TenCC": "Ứng dụng CNTT cơ bản",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61824",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61866",
+      "TenCC": "IELTS",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652ca686fe1a7c19b5fe9e4f"
+  },
+  "MaNV": "NV14",
+  "CCCD": "096817989234",
+  "HoTen": "Thi Vân Trần",
+  "NgaySinh": 918000000,
+  "GioiTinh": "Nữ",
+  "SoDienThoai": "0942865923",
+  "Email": "vantran@gmal.com",
+  "ViTriUngTuyen": "Trưởng Phòng",
+  "NamKinhNghiem": 6,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "278 Lê Trọng Tấn",
+    "Phuong_Xa": "Xã 12",
+    "Quan_Huyen": "Quận Tân Ohucs",
+    "Tinh_TP": "Hà Nội"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "67128",
+      "TenCC": "Ứng dụng CNTT cơ bản",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61824",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61866",
+      "TenCC": "IELTS",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652ca6f0fe1a7c19b5fe9e50"
+  },
+  "MaNV": "NV15",
+  "CCCD": "096817797123",
+  "HoTen": "Thanh Ngân",
+  "NgaySinh": 626054400,
+  "GioiTinh": "Nữ",
+  "SoDienThoai": "0942865923",
+  "Email": "vantran@gmal.com",
+  "ViTriUngTuyen": "Trưởng Phòng",
+  "NamKinhNghiem": 6,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "278 Lê Trọng Tấn",
+    "Phuong_Xa": "Xã 12",
+    "Quan_Huyen": "Quận Tân Phú",
+    "Tinh_TP": "Hà Nội"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "67128",
+      "TenCC": "Ứng dụng CNTT cơ bản",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61824",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61866",
+      "TenCC": "IELTS",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652ca78cfe1a7c19b5fe9e51"
+  },
+  "MaNV": "NV16",
+  "CCCD": "018627648191",
+  "HoTen": "Phúc Tiến",
+  "NgaySinh": 436665600,
+  "GioiTinh": "Nam",
+  "SoDienThoai": "0942871223",
+  "Email": "maithanh@gmail.com",
+  "ViTriUngTuyen": "Nhân Vien",
+  "NamKinhNghiem": 12,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "123 Thanh Nam",
+    "Phuong_Xa": "Xã KIến Nam",
+    "Quan_Huyen": "Quận Tân Phú",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "67128",
+      "TenCC": "Ứng dụng CNTT cơ bản",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61824",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61866",
+      "TenCC": "IELTS",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+},
+{
+  "_id": {
+    "$oid": "652ca7e3fe1a7c19b5fe9e52"
+  },
+  "MaNV": "NV17",
+  "CCCD": "018627681291",
+  "HoTen": "Phúc Thiên",
+  "NgaySinh": 420768000,
+  "GioiTinh": "Nam",
+  "SoDienThoai": "0928691723",
+  "Email": "maithanh@gmail.com",
+  "ViTriUngTuyen": "Nhân Vien",
+  "NamKinhNghiem": 8,
+  "Anh": {
+    "$binary": {
+      "base64": "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",
+      "subType": "00"
+    }
+  },
+  "DiaChi": {
+    "Duong": "123 Thanh Nam",
+    "Phuong_Xa": "Xã KIến Nam",
+    "Quan_Huyen": "Quận Tân Phú",
+    "Tinh_TP": "TP.HCM"
+  },
+  "ChungChis": [
+    {
+      "MaCC": "67128",
+      "TenCC": "Ứng dụng CNTT cơ bản",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61824",
+      "TenCC": "TOEIC",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    },
+    {
+      "MaCC": "61866",
+      "TenCC": "IELTS",
+      "NgayCap": 1696896000,
+      "DiaChi": {
+        "Duong": "12 Thanh Trần",
+        "Phuong_Xa": "Xã 4",
+        "Quan_Huyen": "Quận 12",
+        "Tinh_TP": "TP.HCM"
+      }
+    }
+  ],
+  "KetQua": "Đang duyệt"
+}]
